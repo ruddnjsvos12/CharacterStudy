@@ -130,20 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71327c78b8802bd47a1d6cb3f33ebecf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &106173944
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106173942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95290abd6781b204ca498c3186f58de3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   _animator: {fileID: 467866794}
-  _animationController: {fileID: 0}
 --- !u!1 &205909906
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95290abd6781b204ca498c3186f58de3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _animator: {fileID: 467866794}
   _animationController: {fileID: 106173943}
 --- !u!1001 &1844756665
 PrefabInstance:
@@ -362,6 +348,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8707014c2e1117747a5563d92f122301, type: 2}
     - target: {fileID: 400020, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.0027491865
@@ -1110,10 +1100,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 8707014c2e1117747a5563d92f122301, type: 2}
     - target: {fileID: 13700000, guid: 8f0565f23a2b58541a475bd3c1393052, type: 3}
       propertyPath: m_AABB.m_Center.y
       value: 1.380296
